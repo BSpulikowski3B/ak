@@ -1,3 +1,89 @@
 body{
-    
+    background-color: bisque;
+    margin: 0px;
+}
+header{
+    position:fixed; 
+    top:0px;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+header > img{
+    max-height: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+    max-width: 400px;
+}
+header > ol {
+	list-style-type:none;
+	padding:0;
+	margin:0px;
+	font-size:18px;
+	line-height:2em;
+	text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    transform: translate(100%, -97px);
+}
+header > ol a {
+    display:block;
+	text-decoration:none;
+	color:#000;
+	padding: 0px;
+}
+header > ol > li {
+	float:right;
+	width:150px;
+	background-color:white;
+	padding: 10px;
+}
+header > ol > li:first-child {
+    margin: 30px 370px 30px 30px;
+}
+header > ol > li:nth-child(2) {
+    margin: 30px 20px 30px 30px;
+}
+header > ol > li:nth-child(3) {
+    margin: 30px 20px 30px 30px;
+}
+header > ol > li:hover {
+	background-color:black;
+}
+header > ol > li:hover > a {
+    color: white;
+}
+#baner1{
+    background-image: url(zdj/baner1.png);
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+}
+#baner1 h1 {
+    color: rgb(47, 47, 207);
+    font-size: 50px;
+    position: relative;
+    display: block;
+    transform: translate(750px, 150px);
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+}
+#baner1 > a {
+    font-size: 40px;
+    color: rgb(47, 47, 207);
+    position: relative;
+    display: block;
+    transform: translate(797px, 130px);
+    transition: color 3s ease-in-out, box-shadow 3s ease-in-out;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+}
+#baner1 > a:hover {
+    box-shadow: inset 1000px 0 0 0 #54b3d6;
+    color: white;
+}
+#baner1 > h1:hover {
+    box-shadow: inset 1300px 0 0 0 #54b3d6;
+    color: white;
 }
